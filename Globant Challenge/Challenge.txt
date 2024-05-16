@@ -1,0 +1,15 @@
+Link: https://colab.research.google.com/drive/1Bh-dMQwx1hoWjXtKTkkQ0IHBJs6vVv88#scrollTo=_X5ETOz0kuGB
+
+
+
+Write the following functions:
+
+    Function called sum that receives two parameters (a and b) and returns the sum of those two numbers.
+    Function called isletter that determines if a provided character (e.g. 'A') is a letter or not. Should return a boolean.
+    Function called count_instances to count number of instances of a character in a string, it should not take into account spaces or other special characters, and should treat upper and lowercase as the same character. The function isLetter can prove helpful here.
+    Function called reverse_words to reverse words using a space as separator. So "This is a test" would become "test a is This".
+    Function called reverse_chars_in_odd_words where given a string, it will reverse the characters of a word if it's on an odd position. So "A test will yield results" would become "A tset will dleiy results".
+    Function called get_children where given a matrix (or list of lists) with parent/child tuples and a parent, it will return all the items that are descendants of a parent. For example, given [[1, 2], [2, 3], [1, 4], [2, 6], [1, 7]], and asking for the children of 1, the function would return [2, 4, 7].
+    Function called get_increment where given a list, it will attempt to find the increment between the elements, so [1, 2, 3] would return an increment of 1 and [10, 20, 30] would return an increment of 10. If the increment is not consistent it should return -1, so [4, 20, 100] would return -1.
+
+s
